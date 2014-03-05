@@ -37,6 +37,7 @@
 	<plugin>
 		<artifactId>maven-war-plugin</artifactId>
 		<configuration>
+		<finalName>${project.name}-${env.BUILD_NUMBER}</finalName>
 		<manifest>
 			<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
 		</manifest>
