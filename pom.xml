@@ -26,7 +26,7 @@
 	</dependency>
   </dependencies>
   <build>
-    <finalName>${project.name}-${env.BUILD_NUMBER}</finalName>
+    <finalName>LoginApp-${env.BUILD_NUMBER}</finalName>
     <sourceDirectory>src/main/java</sourceDirectory>
        <testSourceDirectory>src/main/test</testSourceDirectory>
     <plugins>
